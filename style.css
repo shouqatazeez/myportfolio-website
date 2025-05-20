@@ -1,19 +1,16 @@
-/* Global Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
-    background-color: #1E293B;
+    background-color: rgba(0, 0, 0, 0.93);
     color: white;
     font-family: 'Poppins', sans-serif;
     padding-top: 80px; 
 }
 
-/* Top Bar Styling */
 .top-bar {
     display: flex;
     align-items: center;
@@ -27,12 +24,10 @@ body {
     border-bottom: 2px solid white;
 }
 
-
-/* Top Bar Text Styling */
 .top-bar span {
     display: flex;
     align-items: center;
-    color:black;
+    color: black;
 }
 
 .top-bar ul {
@@ -49,12 +44,11 @@ body {
 }
 
 .top-bar a:hover {
-    color: #2f76e9 ;
+    color: #2f76e9;
 }
 
-/* Navigation Bar Styling */
 nav {
-    background-color: #222;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,20 +57,15 @@ nav {
     width: 100%;
     top: 50px;
     z-index: 9;
-}
-
-
-
-nav {
     border-top: 2px solid #2f76e9; 
 }
 
-/* Logo Styling */
 .logo a {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    color: white;
+    color: black;
+    background: white;
     text-decoration: none;
 }
 
@@ -86,7 +75,6 @@ nav {
     border-radius: 100px;
 }
 
-/* Menu Styling */
 .menu {
     display: flex;
     align-items: center;
@@ -99,7 +87,7 @@ nav {
 }
 
 .menu a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
@@ -111,7 +99,6 @@ nav {
     display: none;
 }
 
-/* Main Section */
 .firstsection {
     display: flex;
     align-items: center;
@@ -154,7 +141,6 @@ nav {
     color: #2f76e9;
 }
 
-/* Media Queries for smaller screens */
 @media screen and (max-width: 600px) {
     nav {
         flex-direction: row;
@@ -193,14 +179,12 @@ nav {
     }
 }
 
-
 .about-section {
-    background-color: #1E293B;
-    color: rgba(0, 0, 0, 0.851);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
     padding: 60px 20px;
     margin-top: 80px;
 }
-
 
 .about-content {
     display: flex;
@@ -237,7 +221,7 @@ nav {
 .right-content p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: white;
+    color: rgba(255, 255, 255, 0.73);
     margin-bottom: 20px;  
     text-align: justify;  
 }
@@ -246,7 +230,6 @@ nav {
     margin-top: 0; 
 }
 
-/* Media Queries for smaller screens */
 @media screen and (max-width: 768px) {
     .about-content {
         flex-direction: column;  
@@ -263,20 +246,18 @@ nav {
 
     .right-content p {
         text-align: justify;  
-     }
+    }
 }
-
-
 
 #projects {
     text-align: center;
     padding: 50px;
-    background-color: #1E293B;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #projects h2 {
     font-size: 2.5rem;
-    color: rgba(0, 0, 0, 0.851);
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -288,7 +269,7 @@ nav {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #ffffffe7;
     border: 1px solid #ddd;
     border-radius: 8px;
     width: 30%; 
@@ -314,7 +295,7 @@ nav {
 
 .project-details h3 {
     font-size: 1.8rem;
-    color: #333;
+    color: #0e0d0d;
     margin-bottom: 10px;
 }
 
@@ -346,7 +327,7 @@ nav {
 
 .project-links .btn {
     display: inline-block;
-    background-color: #1E293B;
+    background-color: #3B82F6;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -356,7 +337,7 @@ nav {
 }
 
 .project-links .btn:hover {
-    background-color: #3B82F6;
+    background-color: #2563EB;
 }
 
 @media screen and (max-width: 768px) {
@@ -370,10 +351,7 @@ nav {
     }
 }
 
-
-
 .skills-section {
-    background-color: #1E293B;
     color: white;
     padding: 50px;
     text-align: center;
@@ -382,7 +360,7 @@ nav {
 .skills-section h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: rgba(0, 0, 0, 0.851);
+    color: white;
 }
 
 .skills-container {
@@ -399,7 +377,7 @@ nav {
 
 .skill-category h3 {
     font-size: 1.8rem;
-    color: #3b83f6a5;
+    color: white;
     margin-bottom: 15px;
 }
 
@@ -410,7 +388,7 @@ nav {
 
 .skill-category li {
     font-size: 1.2rem;
-    color: rgba(0, 0, 0, 0.658);
+    color: wheat;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -419,10 +397,9 @@ nav {
 .skill-category i {
     font-size: 1.5rem;
     margin-right: 10px;
-    color:white; 
+    color: white;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .skill-category {
         width: 100%;
@@ -434,13 +411,9 @@ nav {
     }
 }
 
-
-
-
-
 #contact {
     padding: 50px;
-    background-color: #1E293B;
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
 }
 
@@ -463,6 +436,7 @@ nav {
     height: auto;
     border-radius: 8px;
 }
+
 
 .contact-form-container {
     flex: 1;
@@ -514,7 +488,6 @@ nav {
     background-color: #2563EB;
 }
 
-/* Responsive Design for smaller screens */
 @media screen and (max-width: 768px) {
     .contact-container {
         flex-direction: column; }
@@ -532,7 +505,7 @@ nav {
 
 
 footer {
-    background-color: #1E293B; 
+    background-color: #1e293b5c; 
     color: #fff; 
     text-align: center; 
     padding: 20px 0; 
